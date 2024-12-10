@@ -59,6 +59,12 @@ project(${ALLEGRO_PROJECT_NAME}${ALLEGRO_PROJECT_SUFFIX}
     HOMEPAGE_URL "https://github.com/liballeg/allegro5"
 )
 
+LIST(APPEND CMAKE_MODULE_PATH ${CMAKE_CURRENT_SOURCE_DIR}/cmake)
+INCLUDE(cmake/ModuleImport.cmake)
+INCLUDE(cmake/ModuleCompileOptions.cmake)
+ModuleSetCompileOptions()
+ModuleSetWinCompilerFlags()
+
 set(ALLEGRO_SOVERSION ${PROJECT_VERSION_MAJOR}.${PROJECT_VERSION_MINOR})
 
 if(NOT CMAKE_BUILD_TYPE)
