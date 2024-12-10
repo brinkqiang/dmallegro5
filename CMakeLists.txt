@@ -115,7 +115,7 @@ include_directories(
     )
 
 # Put libraries into `lib'.
-set(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
+#set(LIBRARY_OUTPUT_PATH ${PROJECT_BINARY_DIR}/lib)
 
 # Lists of all the source files.
 include(FileList)
