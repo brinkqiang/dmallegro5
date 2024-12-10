@@ -231,10 +231,10 @@ endif(NOT IPHONE)
 
 option(NO_FPU "No floating point unit" off)
 option(WANT_DLL_TLS "Force use of DllMain for TLS (Windows)" off)
-option(WANT_DEMO "Build demo programs" on)
-option(WANT_EXAMPLES "Build example programs" on)
-option(WANT_POPUP_EXAMPLES "Use popups instead of printf for fatal errors" on)
-option(WANT_TESTS "Build test programs" on)
+option(WANT_DEMO "Build demo programs" off)
+option(WANT_EXAMPLES "Build example programs" off)
+option(WANT_POPUP_EXAMPLES "Use popups instead of printf for fatal errors" off)
+option(WANT_TESTS "Build test programs" off)
 
 option(WANT_WAIT_EVENT_SLEEP "Use sleep instead of threads in al_wait_for_event (only useful for emscripten without web workers)" off)
 
