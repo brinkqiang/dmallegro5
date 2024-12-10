@@ -14,6 +14,9 @@
 
 
 #include <windows.h>
+#include <commdlg.h>
+#include <mmeapi.h>
+
 #include <dsound.h>
 
 /* dsound.h from the official DirectX SDK uses __null to annotate some

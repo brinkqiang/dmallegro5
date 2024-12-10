@@ -18,6 +18,7 @@
 #define __al_included_allegro5_allegro_windows_h
 
 #include <windows.h>
+#include <commdlg.h>
 
 #include "allegro5/base.h"
 #include "allegro5/display.h"
